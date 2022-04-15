@@ -5,19 +5,18 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 3s linear;
   height: 40vmin;
 }
 
 .App-header {
-  background-color: #bbff00;
+  background-color: #EFEFEF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 162, 255);
 }
 
 .App-body {

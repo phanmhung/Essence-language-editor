@@ -260,28 +260,6 @@ class NewMethod extends Component {
           })
         );
       }
-      // else {
-      //
-      //     this.props.essence_kernels.filter(function (data) {
-      //         return data.id === alpha_id
-      //     })[0].detail.area = 'Solution'
-      //
-      //     this.props.essence_kernels.filter(function (data) {
-      //         return data.id === alpha_id
-      //     })[0].style = 'AlphaSolution'
-      //
-      //     this.props.graph_global.getModel().beginUpdate()
-      //
-      //     try {
-      //
-      //         this.props.graph_global.refresh()
-      //
-      //     } finally {
-      //         // Updates the display
-      //         this.props.graph_global.getModel().endUpdate();
-      //     }
-      //
-      // }
     }
 
     if (this.state.alpha_description) {
@@ -303,7 +281,6 @@ class NewMethod extends Component {
       this.props.graph_global.getModel().endUpdate();
     }
 
-    // this.state.graph.cellLabelChanged(this.state.data, "Change Test");
     this.props.closeForm();
   }
 
@@ -314,7 +291,6 @@ class NewMethod extends Component {
         this.props.essence_kernel,
         this.state.activity_space_name
       );
-      // this.state.graph.cellLabelChanged(this.state.data, "Change Test");
 
       if (
         this.state.activity_space_name === 'Explore Possibillities' ||

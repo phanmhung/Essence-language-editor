@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import logo from '../../essence.png';
+import logo from '../../the_book_0.png';
 import Modal from '@material-ui/core/Modal';
 import NewMethod from './../../Component/newMethod/NewMethod';
 import Button from '@material-ui/core/Button';

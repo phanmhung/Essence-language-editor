@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import { withStyles } from '@material-ui/core/styles';
-import './NotFound.css';
-
-const styles = (theme) => ({});
 
 class NotFound extends Component {
   constructor(props) {
@@ -36,4 +32,4 @@ class NotFound extends Component {
   }
 }
 
-export default withStyles(styles)(NotFound);
+export default NotFound;

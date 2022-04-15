@@ -44,6 +44,7 @@ import {
   List,
   ListItem,
   Typography,
+  Link,
 } from '@material-ui/core';
 import axios from 'axios';
 import { withStyles } from '@material-ui/core';
@@ -1376,7 +1377,6 @@ class Editor extends Component {
           graph.getModel().beginUpdate();
 
           try {
-            //let editedCell = new mxCell(null,geometry,graph.getSelectionCell().getStyle());
             graph.translateCell(graph.getSelectionCell(), -10, 0);
           } catch (e) {
             console.log(e);
@@ -1463,7 +1463,9 @@ class Editor extends Component {
                 noWrap
                 className={classes.logo}
               >
-                Essence editor
+                <Link href="/" color="inherit">
+                  Essence editor
+                </Link>
               </Typography>
               <Button
                 variant="contained"
