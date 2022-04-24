@@ -46,7 +46,7 @@ const EssenceAPI = {
           throw err;
         }),
       new Promise((_, reject) =>
-        setTimeout(() => reject('Tidak dapat terhubung ke server'), timeout)
+        setTimeout(() => reject('Unable to connect to server'), timeout)
       ),
     ]);
   },
